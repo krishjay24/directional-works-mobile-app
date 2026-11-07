@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "Art of Calligraphy",
+    "file": "assets/images/art_of_caliography.jpg",
+    "category": "calligraphy",
+    "sha256": "2D7EDB6B80F19BBA1DF49A437E8849239207ADD710A930285113210EFF01E6E3",
+    "bytes": 215768
+  },
+  {
+    "id": 2,
+    "title": "Devotional 5",
+    "file": "assets/images/devotional_5.jpg",
+    "category": "devotional",
+    "sha256": "E3061D36AE76FFF70D40A9BEBF3DC808A991C58C27906CB5958866915F248E1F",
+    "bytes": 3079278
+  },
+  {
+    "id": 3,
+    "title": "Devotional 6",
+    "file": "assets/images/devotional_6.jpg",
+    "category": "devotional",
+    "sha256": "CE238AD8448F67F887A2CB9C403F3D55EA7319668248AE92FE3A8221EA9E0B84",
+    "bytes": 684325
+  },
+  {
+    "id": 4,
+    "title": "Devotional 7",
+    "file": "assets/images/devotional_7.jpg",
+    "category": "devotional",
+    "sha256": "9CFA591A957816192E391FB5AC59CAB42FD4DB4ECBEBFA89AC861DC44A5CDE60",
+    "bytes": 491576
+  },
+  {
+    "id": 5,
+    "title": "Devotional 8",
+    "file": "assets/images/devotional_8.jpg",
+    "category": "devotional",
+    "sha256": "575FDC523F26DF1846845A2AFD733332C45DCD8748721BDCB3369042F4715036",
+    "bytes": 583893
+  },
+  {
+    "id": 6,
+    "title": "Devotional 9",
+    "file": "assets/images/devotional_9.jpg",
+    "category": "devotional",
+    "sha256": "5F3CDD96D755F736242AECA6AAB7CB93801CA0045BEE2FE172302B20CB14EE70",
+    "bytes": 1099164
+  },
+  {
+    "id": 7,
+    "title": "Devotional",
+    "file": "assets/images/devotional.jpg",
+    "category": "devotional",
+    "sha256": "BDC78C655AC5D93665C2B6A7DF5A1E9EC914C9758844DFEBBB3969FC92CB4D75",
+    "bytes": 906861
+  },
+  {
+    "id": 8,
+    "title": "Music 360",
+    "file": "assets/images/music_360.png",
+    "category": "spiritual",
+    "sha256": "E7F9C3A77910C39111A7CEB09A5EEA96FB925E44CF00242D2BD9A6FFE98E3CF1",
+    "bytes": 1565565
+  },
+  {
+    "id": 9,
+    "title": "Nature 2",
+    "file": "assets/images/nature_2.jpg",
+    "category": "nature",
+    "sha256": "33AF9377E246543C25CE5E56BD5D748D15264E4D5D25669D86E8FC9594C16D2A",
+    "bytes": 581984
+  },
+  {
+    "id": 10,
+    "title": "Nature 3",
+    "file": "assets/images/nature_3.jpg",
+    "category": "nature",
+    "sha256": "7AAB37379829E17132752707E6B41842B155C221AFA61DE0CF5FD125DAA6A4F1",
+    "bytes": 572340
+  },
+  {
+    "id": 11,
+    "title": "Nature 4",
+    "file": "assets/images/nature_4.jpg",
+    "category": "nature",
+    "sha256": "E4E592C80CFE969B6F4AFF32C91FB1C6AD2F53E0BC54271FB9EEFE02FC8E5C8B",
+    "bytes": 1280305
+  },
+  {
+    "id": 12,
+    "title": "Nature",
+    "file": "assets/images/nature.jpg",
+    "category": "nature",
+    "sha256": "64279BD8F0093C18C2C2F8BF57DBE5A0E86D784FAB14DC008ACD54066616AB96",
+    "bytes": 1081822
+  },
+  {
+    "id": 13,
+    "title": "Spiritual 2",
+    "file": "assets/images/spiritual_2.jpg",
+    "category": "spiritual",
+    "sha256": "2146D26BDD1539E91348DD1CD82603565F2749A3CB16790EDEF563C7413E9103",
+    "bytes": 682193
+  }
+]

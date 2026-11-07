@@ -1,0 +1,33 @@
+What is your first and last name?
+  [Unknown]:  krishna jayanth rao lingala
+What is the name of your organizational unit?
+  [Unknown]:  kj tech solutions
+What is the name of your organization?
+  [Unknown]:  kj tech solutions
+What is the name of your City or Locality?
+  [Unknown]:  hyderabad
+What is the name of your State or Province?
+  [Unknown]:  telangana
+What is the two-letter country code for this unit?
+  [Unknown]:  91
+Is CN=krishna jayanth rao lingala, OU=kj tech solutions, O=kj tech solutions, L=hyderabad, ST=telangana, C=91 correct?
+  [no]:  yes
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+        for: CN=krishna jayanth rao lingala, OU=kj tech solutions, O=kj tech solutions, L=hyderabad, ST=telangana, C=91
+Enter key password for <directionalworks-upload>
+        (RETURN if same as keystore password):
+
+Re-enter new password:
+
+[Storing directionalworks-upload.jks]
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore directionalworks-upload.jks -destkeystore directionalworks-upload.jks -deststoretype pkcs12".
+
+D:\DW\keystore>
+
+
+
+Jayanth@1
+directionalworks-upload

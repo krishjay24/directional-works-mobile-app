@@ -1,0 +1,26 @@
+# Dependencies and generated files
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Editor and local AI configuration
+.idea/
+.vscode/
+.devin/config.local.json
+
+# Local archive
+DW.zip
+
+# Windows reserved file
+nul
+
+# OS files
+.DS_Store
+Thumbs.db
