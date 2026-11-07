@@ -102,6 +102,15 @@ android {
         versionName "1.0.0"
 
         buildConfigField "String", "REACT_NATIVE_RELEASE_LEVEL", "\"${findProperty('reactNativeReleaseLevel') ?: 'stable'}\""
+
+        // Windows: codegen object paths nest D_/DW/node_modules/... under .cxx and exceed MAX_PATH.
+        // MAX must be higher than the CMakeFiles/*.dir folder (~147 chars) so CMake can hash
+        // the long object names instead of mkdir'ing the nested source tree.
+        externalNativeBuild {
+            cmake {
+                arguments "-DCMAKE_OBJECT_PATH_MAX=210"
+            }
+        }
     }
     signingConfigs {
         debug {
@@ -133,7 +142,7 @@ android {
             def enableShrinkResources = findProperty('android.enableShrinkResourcesInReleaseBuilds') ?: 'false'
             shrinkResources enableShrinkResources.toBoolean()
             minifyEnabled enableMinifyInReleaseBuilds
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
             def enablePngCrunchInRelease = findProperty('android.enablePngCrunchInReleaseBuilds') ?: 'true'
             crunchPngs enablePngCrunchInRelease.toBoolean()
         }
@@ -146,6 +155,15 @@ android {
     }
     androidResources {
         ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
+    }
+}
+
+afterEvaluate {
+    def cmakeMaxPath = "-DCMAKE_OBJECT_PATH_MAX=210"
+    android.defaultConfig.externalNativeBuild.cmake.arguments.with { args ->
+        if (!args.any { it.contains("CMAKE_OBJECT_PATH_MAX") }) {
+            args.add(cmakeMaxPath)
+        }
     }
 }
 
